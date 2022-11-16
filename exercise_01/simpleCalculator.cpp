@@ -58,7 +58,7 @@ int main(){
         cout << "Product is " << multiply(a,b) << "\n";
     }
 
-    if (op == 'm'){
+    if (op == 'm'){ //find the mean using other functions
         cout << "Mean is " << mean(a,b) << "\n";
     }
 
