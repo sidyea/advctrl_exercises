@@ -24,6 +24,10 @@ double divide(double a, double b){
     }
 }
 
+double mean(double a, double b){
+    return divide(sum(a,b),2.0);
+}
+
 int main(){
 
     double a,b;
