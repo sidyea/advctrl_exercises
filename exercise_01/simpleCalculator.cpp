@@ -20,7 +20,8 @@ double divide(double a, double b){
     if(b != 0){
         return a / b;
     }else{
-        cout << "b has value " << b << ". Should be nonzero!\n"; //should print val 0.0
+        cout << "impossible! 'b' has value " << b << ". Should be nonzero!\n"; //should print val 0.0
+        return 0;
     }
 }
 
@@ -38,7 +39,7 @@ int main(){
     cout << "\ninput b: ";
         cin >> b;
     
-    cout << "\n Menu: +,-,/,*,m \n Input symbol for operation: ";
+    cout << "\nMenu: +,-,/,*,m \nInput symbol for operation: ";
         cin >> op;
 
     if(op == '+'){ //in c++ " " define a string literal and ' ' define a char literal
@@ -50,11 +51,11 @@ int main(){
     }
 
     if(op == '/'){
-        cout << "Ratio is " << multiply(a,b) << "\n";
+        cout << "Ratio is " << divide(a,b) << "\n";
     }
 
     if(op == '*'){
-        cout << "Product is " << divide(a,b) << "\n";
+        cout << "Product is " << multiply(a,b) << "\n";
     }
 
     if (op == 'm'){
