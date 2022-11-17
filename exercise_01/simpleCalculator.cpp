@@ -45,19 +45,15 @@ int main(){
     if(op == '+'){ //in c++ " " define a string literal and ' ' define a char literal
         cout << "Sum is " << sum(a,b) << "\n";
     }
-
     if(op == '-'){
         cout << "Difference is " << subtract(a,b) << "\n";
     }
-
     if(op == '/'){
         cout << "Ratio is " << divide(a,b) << "\n";
     }
-
     if(op == '*'){
         cout << "Product is " << multiply(a,b) << "\n";
     }
-
     if (op == 'm'){ //find the mean using other functions
         cout << "Mean is " << mean(a,b) << "\n";
     }
